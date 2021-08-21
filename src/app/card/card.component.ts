@@ -27,8 +27,4 @@ export class CardComponent implements OnInit {
     console.log(`users: ${users}`);
     console.log(`copyUsers: ${copyUsers}`);
   }
-
-  goToAbout() {
-    window.location.assign('/about');
-  }
 }
